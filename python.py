@@ -1,6 +1,3 @@
-git remote add origin https://github.com/jack-666-baker/prime-number.git
-git push -u origin master
-
 # Python program which displays all prime numbers between two numbers chosen by
 # the individual.
 
