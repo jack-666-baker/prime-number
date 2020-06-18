@@ -37,30 +37,25 @@ def main():
                    break
            else:
                print(num)
-
-    choice()
     
-def choice():
     
-    choice = input("Would you like to try some different numbers? ")
+    again = input("Would you like to play again? Yes or no\n")
+    again = again.lower()
 
-
-    if choice == 'yes' or 'Yes':
-        print("Taking you back to the main menu!")
-        print('\n')
-        print('\n')
-        print('\n')
-        print('\n')
-        print('\n')
+    if again=="yes" or again=="y":
+        print("\n")
+        print("\n")
+        print("\n")
+        print("\n")
+        print("\n")
         main()
-
-    if choice == 'no' or 'No':
-        print("Thank you for running my programme")
-        Print("You may now close the programme")
-
     else:
-        print("Please enter yes or no")
-        choice()
+        print("\n")
+        print("\n")
+        print("Thank you for running my programme")
+        print("You may now close my programme")
 
-main()      
+
+
+main() 
         
